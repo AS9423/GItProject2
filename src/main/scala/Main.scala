@@ -10,9 +10,9 @@ object Main {
       .getOrCreate()
 
     // Specify the file paths for your three CSV files
-    val file1Path = "C:\\Training\\SQL\\members.csv"
-    val file2Path = "C:\\Training\\SQL\\menu.csv"
-    val file3Path =  "C:\\Training\\SQL\\sales.csv"
+    val file1Path = args(0)
+    val file2Path = args(1)
+    val file3Path =  args(2)
 
     // Read the CSV files into DataFrames
     val df1: DataFrame = spark.read.option("header", "true").csv(file1Path)

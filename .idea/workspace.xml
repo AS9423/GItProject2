@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4660dfc2-5102-478d-8670-8b20cd573994" name="Changes" comment="Commit project" />
+    <list default="true" id="4660dfc2-5102-478d-8670-8b20cd573994" name="Changes" comment="Commit project">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +56,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.itc.com.Main" />
       <module name="GItProject1" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\\Training\\SQL\\members.csv&quot; &quot;C:\\Training\\SQL\\menu.csv&quot; &quot;C:\\Training\\SQL\\sales.csv&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.itc.com.*" />
@@ -103,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698766462274</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit project">
+      <option name="closed" value="true" />
+      <created>1698766979577</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698766979577</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
